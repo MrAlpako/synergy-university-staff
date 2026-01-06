@@ -79,16 +79,3 @@ synergy_staff.exe
 
 Автор
 [Некрасов Сергей] - стажер IT-отдела Университета "Синергия"
-
-## **5. Файл `CMakeLists.txt` (опционально, для сборки)**
-
-cmake_minimum_required(VERSION 3.10)
-project(SynergyStaffSystem)
-
-set(CMAKE_CXX_STANDARD 17)
-
-add_executable(synergy_staff
-    main.cpp
-    university_staff.cpp
-    university_staff.h
-)
