@@ -16,7 +16,6 @@ synergy_staff_system/
 ├── main.cpp # Основная программа
 └── README.md # Документация
 
-
 ## Класс UNIVERSITY_STAFF
 Содержит поля:
 - Фамилия и инициалы сотрудника
@@ -34,13 +33,13 @@ synergy_staff_system/
 ## Как скомпилировать и запустить
 
 ### Для Linux/macOS:
-```bash
 g++ -o synergy_staff main.cpp university_staff.cpp
 ./synergy_staff
-Для Windows (MinGW):
-bash
+
+### Для Windows (MinGW):
 g++ -o synergy_staff.exe main.cpp university_staff.cpp
 synergy_staff.exe
+
 Для Visual Studio:
 Создайте новый проект C++
 
@@ -49,7 +48,6 @@ synergy_staff.exe
 Скомпилируйте и запустите
 
 Пример использования
-text
 Введите текущий год: 2024
 Введите количество сотрудников для добавления: 2
 
@@ -69,6 +67,7 @@ text
 
 Сотрудники со стажем более 10 лет:
 1. Иванов А.И. (Проректор по науке)
+
 Особенности реализации
 Использован динамический массив объектов
 
@@ -83,7 +82,6 @@ text
 
 ## **5. Файл `CMakeLists.txt` (опционально, для сборки)**
 
-```cmake
 cmake_minimum_required(VERSION 3.10)
 project(SynergyStaffSystem)
 
